@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .food-slide {
+        border: 2px solid green;
+        width: 800px;
+        height: 400px;
+        margin: 0 auto;
+        padding: 10px;
+        position: relative;
+      }
+      .food-slide img {
+        float: left;
+      }
+      .controls a {
+        display: block;
+        background-color: black;
+        line-height: 50px;
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        white-space: nowrap; /*공백을 기준으로 엔터넣지말기*/
+        top: calc(50% - 25px);
+      }
+      .prev {
+        right: 100%;
+      }
+      .next {
+        left: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="food-slide">
+      <img
+        src="https://lh3.googleusercontent.com/proxy/k-cFA-kxUcbux4ZYURLtrLM7zs84U1YPOmvqc5UkeIQYJu1oTrRO529WqhWk-P5aZHlZfXIjMA5O0BImo5nXZX2pC8_gbyKlOahbVYcPe9NsUHIU7pFvb-bkdgTBaqaeBjKmNHwNR5zAkAGuHUBoVUePX9kOP_mSk1xaXSCnFA"
+        alt=""
+      />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam eum,
+        sequi iure ab molestiae doloribus, nobis quos minus laborum magni sunt
+        nostrum omnis voluptas possimus sed delectus alias voluptatibus vero?
+      </p>
+      <div class="controls">
+        <a href="" class="prev">Previous Project</a>
+        <a href="" class="next">Next Project</a>
+      </div>
+    </div>
+  </body>
+</html>

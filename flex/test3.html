@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #333338;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: #444;
+      }
+      .container {
+        display: flex;
+      }
+      .main-content,
+      .sidebar {
+        margin: 10px;
+        background-color: #eee;
+        padding: 6px;
+      }
+      .panel {
+        background-color: white;
+        margin: 10px;
+        padding: 20px;
+      }
+      .sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section class="main-content">
+        <div class="panel">
+          <h1>Main title</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, at
+            enim quas harum vero fuga ipsa temporibus ea veniam sapiente
+            provident reprehenderit fugit dignissimos assumenda animi voluptates
+            officiis, sint eum!
+          </p>
+          <img src="http://placehold.it/200" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At impedit
+            ab nemo, magni laudantium iste tenetur aliquam ipsam veniam, vel
+            omnis atque ex ullam nulla consequatur aperiam minus vitae
+            consequuntur?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At impedit
+            ab nemo, magni laudantium iste tenetur aliquam ipsam veniam, vel
+            omnis atque ex ullam nulla consequatur aperiam minus vitae
+            consequuntur?
+          </p>
+          <h3>SubTitle</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At impedit
+            ab nemo, magni laudantium iste tenetur aliquam ipsam veniam, vel
+            omnis atque ex ullam nulla consequatur aperiam minus vitae
+            consequuntur?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At impedit
+            ab nemo, magni laudantium iste tenetur aliquam ipsam veniam, vel
+            omnis atque ex ullam nulla consequatur aperiam minus vitae
+            consequuntur?
+          </p>
+        </div>
+      </section>
+      <aside class="sidebar">
+        <div class="panel">
+          <h3>Item 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
+            ullam perspiciatis, accusantium deleniti, voluptates expedita
+            commodi vero ut fugit modi dolores magni suscipit est, minima
+            reiciendis. Nemo, ullam reprehenderit? Aperiam?
+          </p>
+        </div>
+        <div class="panel">
+          <h3>Item 2</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="panel">
+          <h3>Item 3</h3>
+          <p>
+            Voluptatum ullam perspiciatis, accusantium deleniti, voluptates
+            expedita commodi vero ut fugit modi dolores magni suscipit est,
+            minima reiciendis.
+          </p>
+        </div>
+        <div class="panel">
+          <h3>Item 4</h3>
+          <p>
+            vel omnis atque ex ullam nulla consequatur aperiam minus vitae
+            consequuntur?
+          </p>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0%;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Open Sans";
+        background-color: #ecf0f1;
+      }
+      .wrapper {
+        max-width: 60rem;
+        width: 100%;
+        margin: 2rem auto;
+      }
+      .flexbg {
+        display: flex;
+      }
+      .flexbg main {
+        background-color: #fff;
+        width: 60%;
+        padding: 1.618rem;
+        order: 2;
+      }
+      .flexbg .sidebar {
+        width: 20%;
+        padding: 1.618rem;
+      }
+      .flexbg .left {
+        order: 1;
+        background-color: #3498db;
+      }
+      .flexbg .right {
+        order: 1;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wqapper flexbg">
+      <main>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo suscipit
+          facilis maiores nam placeat, provident fuga obcaecati nostrum nulla,
+          beatae excepturi. Cupiditate nulla obcaecati at in illum. Quibusdam,
+          nihil unde? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Asperiores ad optio et itaque unde dolore sequi obcaecati harum modi
+          repellat ipsa adipisci, maxime quod dolorum excepturi aut animi alias
+          eius.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo suscipit
+          facilis maiores nam placeat, provident fuga obcaecati nostrum nulla,
+          beatae excepturi. Cupiditate nulla obcaecati at in illum. Quibusdam,
+          nihil unde?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Praesentium doloremque a maiores, placeat sint adipisci fuga possimus
+          quibusdam, dolorum sed sapiente ducimus ipsum ex expedita. Libero
+          repellat quae atque expedita.
+        </p>
+      </main>
+      <aside class="sidebar left">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+      </aside>
+      <aside class="sidebar right">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+      </aside>
+    </div>
+  </body>
+</html>
